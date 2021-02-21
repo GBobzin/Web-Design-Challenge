@@ -1,0 +1,100 @@
+/* navbar styling*/
+a.navbar-brand{
+    margin-left: auto;
+    padding: 5px;
+    background-color: rgb(58, 190, 168);
+    font-family: 'Calibri', Times, serif;
+    font-size: 25px;
+    
+}
+
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:60px;
+}
+
+.nav-item.dropdown.show {
+    background-color: #ddd;
+}
+
+.dropdown-menu {
+    margin: 0;
+}
+
+@media(max-width:767px){
+    .navbar.bg-light{
+        background-color: rgb(71, 224, 199)!important;    
+    }
+
+    .navbar-collapse{
+        background-color: #aebece;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
+
+/* Image Styling */
+
+.img-thumbnail{
+    padding:10px;
+    border: none;
+}
+
+.pic{
+    border: 3px solid rgb(58, 190, 168);
+}
+
+/*footer styling*/
+.page-footer{
+    background-color: rgb(58, 190, 168);
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-copyright{
+    color:white;
+    border-top: 5px solid rgb(58, 190, 168)
+}
+
+
+/* fontstyling for text*/
+p{
+    font-family: 'Calibri', Times, serif;
+    font-size: large;
+    padding:10px;
+ }
+ 
+ /* body background*/
+ body{
+     background-color: rgb(58, 190, 168);
+ } 
+ .col-md-12{
+    background-color: rgb(58, 190, 168);
+    font-family: 'Calibri', Times, serif;
+    font-size: 25px;
+    color:bisque;
+    padding-top: 20px;
+    padding-bottom:40px;
+    text-align: center;
+ }
+
+ .col-3.col-md-6{
+    background-color: rgb(58, 190, 168);
+    font-family: 'Calibri', Times, serif;
+    font-size: 25px;
+    color:bisque;
+    padding-top: 20px;
+    padding-bottom:40px;
+    text-align: center;
+ }
+ a {
+    color: bisque;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+
+}
